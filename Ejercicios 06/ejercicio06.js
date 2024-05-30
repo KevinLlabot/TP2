@@ -5,7 +5,7 @@
     const correo = $("correo")
 
     formulario.addEventListener("submit", (event) => {
-        event.preventDefault(); // Evita el envío del formulario para realizar la validación
+        event.preventDefault(); 
         
         mensaje.style.color = "red";
         
