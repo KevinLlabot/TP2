@@ -11,9 +11,7 @@ if (a <= 0 || b <= 0 || c <= 0 || c >= a){
 
 let triangulo = b * (a - c) / 2;
 let rectangulo = b * c;
-
 let areaTotal = triangulo + rectangulo;
-
 alert(`El area del terreno es: ${areaTotal} metros`)
 
 
