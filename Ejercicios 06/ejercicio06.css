@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #060606;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#caja1{
+    display: flex;
+    position: relative;
+    background-color: #3d0e0e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    
+}
+#cajamensaje{
+    position: relative;
+    background-color: rgb(39, 56, 56);
+    width: 800px;
+    height: 100px;
+    left: 160px;
+    top: 150px;
+}
+h1 {
+    color: rgb(116, 119, 121);
+    text-align: center;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: rgb(116, 119, 121);
+}
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #5b3232;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: #434c56;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #2e3032;
+}
