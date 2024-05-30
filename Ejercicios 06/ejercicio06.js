@@ -28,7 +28,7 @@
         } else if (formulario["correo"].value === "") {
             mensaje.textContent = "Correo vacio";
         } else if (!formulario["correo"].value.includes("@")) {
-            mensaje.textContent = "Debe contener una '@' al menos...";
+            mensaje.textContent = "El Mail debe contener una '@' al menos...";
         } else {
             mensaje.textContent = "Todos los datos son correctos";
             mensaje.style.color = "green";
